@@ -1,6 +1,6 @@
 # ParODE
 
-Parallel fixed-point solver for ODEs using GPU-accelerated polynomial collocation (initial version). 
+Parallel fixed-point solver for ODEs using GPU-accelerated polynomial collocation (initial version for testing). 
 
 ## Overview
 This method solves `dy/dt = f(y,t)` by fitting a separable basis `F(y,t)` that approximates the flow field directly, avoiding sequential integration. It is suited for massively parallel calculation. For detail see attached PDF. 
